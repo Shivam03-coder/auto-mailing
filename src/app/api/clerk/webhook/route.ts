@@ -12,5 +12,7 @@ export const POST = async (req: Request) => {
     data: { id, emailAddress, firstName, lastName, imageUrl },
   });
 
+
+
   return new Response("Webhook received", { status: 200 });
 };
